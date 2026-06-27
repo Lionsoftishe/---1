@@ -1,0 +1,417 @@
+/* CSS-файл к моему первому веб-сайту */
+
+/* header */
+
+@font-face{
+	font-family: "bebasneuebold";
+	src: url("fonts/bebasneuebold.ttf") format("ttf"),
+	url("fonts/bebasneuebold.otf") format("otf"),
+	url("fonts/bebasneuebold.woff") format("woff");
+}
+
+@font-face{
+	font-family: "OpenSans";
+	src: url("fonts/OpenSans.ttf") format("ttf"),
+	url("fonts/OpenSans.otf") format("otf"),
+	url("fonts/OpenSans.woff") format("woff");
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background: url("images/bg.png");
+	height: 950px;
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	/*border: 1px solid green;*/
+}
+
+#block{
+	/*background: white;
+	height: 1000px;*/
+}
+
+.item_0{
+	/*background: red;*/
+}
+
+.item_1{
+	/*background: green;*/
+	font-size: 60px;
+	font-family: BebasNeueBold;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: 5.71px;
+	color: rgba(255, 255, 255, 1);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgba(0, 0, 0, 1);
+}
+
+.item_2{
+	/*background: blue;*/
+	text-align: center;
+	font-size: 16px;
+	font-family: OpenSans;
+	color: rgba(255, 255, 255, 1);
+}
+
+.item_3{
+	/*background: yellow;*/
+	font-family: OpenSans;
+	color: rgba(255, 255, 255, 1);
+	font-size: 11px;
+}
+
+/* navbar */
+
+.center{
+	width: 1200px;
+	/*border: 1px solid red;*/
+}
+
+#center{
+	border: 1px solid rgba(230, 230, 230, 1);
+}
+
+nav{
+	margin-top: 0px;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.item_1_1{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	gap: 40px;
+	font-family: "OpenSans";
+	font-size: 12px;
+}
+
+.item_1_2:hover{
+	color: rgba(0, 164, 229, 1);
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color:inherit;
+}
+
+/* about */
+
+article{
+	margin: auto;
+}
+
+#art0{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 65px;
+}
+
+#art1{
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-weight: Bold;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 2.31px;
+	text-align: center;
+}
+
+#art2{
+	margin-top: 20px;
+	width: 50px;
+	height: 0px;
+	border: 2px solid rgba(0, 164, 229, 1);
+}
+
+span{
+	color: rgba(0, 164, 229, 1);
+}
+
+#art3{
+	display: flex;
+	justify-content: space-between;
+	/*margin: 0px 250px 0px 250px;*/
+}
+
+.sec{
+	/*width: 50%;*/
+}
+
+#art3_1{
+	font-family: "OpenSans";
+	color: rgba(72, 85, 91, 1);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0.19px;
+	text-align: left;
+}
+
+#art3_2{
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0.19px;
+	text-align: left;
+}
+
+#fig{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0px 50px 50px;
+}
+
+.figcap{
+	padding-left: 15px;
+	padding-top: 20px;
+}
+
+#fig1{
+	width: 140px;
+	height: 224px;
+	background: url("images/Bitmap1.png");
+}
+
+#fig2{
+	width: 140px;
+	height: 224px;
+	background: url("images/Bitmap2.png");
+	margin: 0px 50px 50px 50px;
+}
+
+#fig3{
+	width: 140px;
+	height: 224px;
+	background: url("images/Bitmap3.png");
+}
+
+figcaption{
+	color: rgba(255, 255, 255, 1);
+	font-family: "OpenSans";
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.19px;
+	text-align: left;
+}
+
+/* service 
+
+.width{
+	width: 100%;
+}*/
+
+button{
+	width: 150px;
+	height: 40px;
+	border: none;
+	background: rgba(0, 164, 229, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+h3{
+	/*background: green;*/
+	width: 295px;
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.43px;
+	text-align: left;
+}
+
+#ser1{
+	display: flex;
+	justify-content: space-between;
+}
+
+#ser1_2{
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	width: 400px;
+}
+
+#ser2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ser2{
+	border: 1px solid rgba(230, 230, 230, 1);
+	padding: 50px;
+	height: 300px;
+	width: 275px;
+}
+
+#ser, #ser2{
+	padding-top: 50px;
+}
+
+#ser{
+	/*width: 1600px;*/
+	margin: auto;
+}
+
+.p_ser{
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0.19px;
+	text-align: left;
+}
+
+/* get-in-touth */
+
+#sec_g_i_t{
+	display: flex;
+	flex-direction: column;
+	background-image: url("images/bg_get-in-touth.png");
+	background-size: 100% 100%;
+	height: 498.24px;
+	/*width: 100%;*/
+	align-items: center;
+	justify-content: center;
+}
+
+#g_i_t{
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.15px;
+	text-align: center;
+}
+
+/* newsletter */
+
+#newsletter{
+	width: 100%;
+	height: 100px;
+	background: rgba(23, 24, 25, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#p_newsletter{
+	color: rgba(255, 255, 255, 1);
+	font-family: "OpenSans";
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0.85px;
+	text-align: center;
+	padding-right: 60px;
+}
+
+input{
+	color: rgba(72, 85, 91, 1);
+	font-family: "OpenSans";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0.07px;
+	text-align: left;
+	width: 250px;
+	height: 34px;
+}
+
+/* footer */
+
+#footer1{
+	background: rgba(20, 26, 32, 1);
+	display: flex;
+	justify-content: center;
+	font-family: "OpenSans";
+	color: rgba(255, 255, 255, 1);
+	letter-spacing: 0.85px;
+	font-size: 11px;
+}
+
+#footer1_1{
+	
+}
+
+#footer1_2{
+	
+	display: flex;
+	flex-direction: column;
+	
+	line-height: 25px;
+}
+
+#footer1_2_1{
+	
+}
+
+#footer1_2_2{
+	display: flex;
+}
+
+.footer1_2_2{
+	padding-top: 26px;
+}
+
+#footer1_3{
+	
+}
+
+#footer1_4{
+	
+}
+
+ul{
+	list-style-type: none;
+}
+
+.footer1{
+	margin: 30px;
+}
+
+.social{
+	margin: 10px;
+}
+
+.footer_h3{
+	color: rgba(255, 255, 255, 1);
+	font-weight: normal;
+}
+
+#footer_copyright{
+	display: flex;
+	text-align: center;
+	background: rgba(23, 24, 25, 1);
+	color: rgba(255, 255, 255, 1);
+	font-family: "OpenSans";
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 13px;
+	letter-spacing: 0.85px;
+	margin: 0 auto;
+	height: 60px;
+	align-items: center;
+	justify-content: center;
+}
